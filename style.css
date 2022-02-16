@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar
+{
+    list-style-type: none;
+     display: flex;
+    /* justify-content: flex-start; */
+    background-color: black;
+
+}
+
+.logo{
+    background-color: darkgreen;
+    width: 100px;
+}
+
+.ul-style
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+.bar-button{
+    transition: 500ms;
+}
+.bar-button:hover
+{ 
+    background-color: lightgray;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    padding: 20px 20px;
+    
+}
+.right
+{
+    color:white;
+    margin-left:auto;
+    margin-top: 17px;
+    padding-right: 10px;
+
+}
+.cerceve
+{
+    
+    position: relative;
+ 
+  
+}
+.boyut
+{
+    width: 100%;
+   min-height: 250px;
+   max-height: 500px;
+}
+
+
+.btn
+{
+    position: absolute;
+    left:0px;
+    bottom:10px;
+    font-size: large;
+    margin-left: 10px;
+    border: none;
+    padding: 12px 24px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 500ms;
+}
+
+
+.Yazi{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: normal;
+    margin: 70px 0;
+}
+.avatar
+{   
+    border-radius: 210px;
+   
+    width: 210px;
+}
+.pic-box
+{
+    display: flex;    
+    flex-flow: row wrap;
+    justify-content: space-around;    
+}
+.section
+{
+    text-align: center;
+}
+.pricing {
+    pad: 0 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.pricing-box {
+    box-sizing: inherit;
+    flex-wrap: row wrap;
+}
+
+.pricing-list {
+    list-style-type: none;
+    font-size: 18px;
+    box-sizing: inherit;
+    padding: 0 8px;
+    width: 90%;
+}
+
+.piItems {
+    border: solid 1px ;
+    text-align: center;
+    padding: 40px;
+    width: 600px;
+   
+}
+
+.foot-er {
+    background-color: black;
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    margin: 20px;
+    background-color: #009688;
+    padding: 8px 16px;
+}
+
+.headers{
+    
+    text-align: center;
+}
+button{
+    
+    color: white;
+    background-color: #009688;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 22px 38px;
+    text-align: center;
+}
